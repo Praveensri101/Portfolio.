@@ -5,7 +5,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Praveen S | Frontend Developer Portfolio</title>
 
-  <!-- Google Font -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
@@ -74,7 +73,6 @@
       cursor: pointer;
     }
 
-    /* Hero Section */
     .hero {
       display: flex;
       justify-content: space-between;
@@ -124,6 +122,8 @@
       font-weight: 600;
       transition: 0.3s;
       display: inline-block;
+      border: none;
+      cursor: pointer;
     }
 
     .btn:hover {
@@ -153,7 +153,6 @@
       font-weight: 600;
     }
 
-    /* UPDATED IMAGE STYLE */
     .hero-image img {
       width: 280px;
       height: 280px;
@@ -173,7 +172,6 @@
       color: #38bdf8;
     }
 
-    /* About */
     .about-container {
       max-width: 900px;
       margin: auto;
@@ -181,7 +179,6 @@
       color: #cbd5e1;
     }
 
-    /* Skills */
     .skills-grid {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -202,7 +199,6 @@
       color: black;
     }
 
-    /* Projects */
     .projects-grid {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
@@ -238,7 +234,6 @@
       margin-right: 15px;
     }
 
-    /* Education */
     .education-box {
       background: #1e293b;
       padding: 20px;
@@ -255,7 +250,6 @@
       color: #cbd5e1;
     }
 
-    /* Certifications */
     .cert-box {
       background: #1e293b;
       padding: 20px;
@@ -273,7 +267,6 @@
       color: #cbd5e1;
     }
 
-    /* Contact */
     .contact-container {
       display: flex;
       justify-content: space-between;
@@ -323,7 +316,6 @@
       color: #94a3b8;
     }
 
-    /* Responsive Navbar */
     @media (max-width: 768px) {
       header {
         padding: 15px 20px;
@@ -371,7 +363,6 @@
 
 <body>
 
-  <!-- Navbar -->
   <header>
     <nav class="navbar">
       <h2 class="logo">Praveen<span>.</span></h2>
@@ -391,7 +382,6 @@
     </nav>
   </header>
 
-  <!-- Hero -->
   <section class="hero" id="home">
     <div class="hero-content">
       <h1>Hi, I'm <span>Praveen S</span></h1>
@@ -415,13 +405,11 @@
       </div>
     </div>
 
-    <!-- UPDATED IMAGE LINK -->
     <div class="hero-image">
-      <img src="DDD_HD.png" alt="Praveen S Profile Photo" />
+      <img src=".vscode/927622BCB038 - PRAVEEN S.jpg" alt="Praveen S Profile Photo" />
     </div>
   </section>
 
-  <!-- About -->
   <section class="about" id="about">
     <h2 class="section-title">Career Objective</h2>
     <div class="about-container">
@@ -433,7 +421,6 @@
     </div>
   </section>
 
-  <!-- Skills -->
   <section class="skills" id="skills">
     <h2 class="section-title">Technical Skills</h2>
 
@@ -442,8 +429,8 @@
       <div class="skill-card">CSS3</div>
       <div class="skill-card">JavaScript</div>
       <div class="skill-card">Python</div>
-      <div class="skill-card">MySQL</div>
-      <div class="skill-card">MongoDB</div>
+      <div class="skill-card">SQL</div>
+      <div class="skill-card">API Knowledge</div>
     </div>
 
     <h2 class="section-title" style="margin-top:50px;">Soft Skills</h2>
@@ -453,18 +440,19 @@
       <div class="skill-card">Problem Solving</div>
       <div class="skill-card">Time Management</div>
       <div class="skill-card">Communication Skill</div>
+      <div class="skill-card">Leadership</div>
     </div>
 
     <h2 class="section-title" style="margin-top:50px;">Area of Interest</h2>
 
     <div class="skills-grid">
       <div class="skill-card">Front-end Development</div>
-      <div class="skill-card">Website Creation</div>
+      <div class="skill-card">Full-stack Development</div>
+      <div class="skill-card">Website Creation and Design</div>
       <div class="skill-card">Database Management System</div>
     </div>
   </section>
 
-  <!-- Projects -->
   <section class="projects" id="projects">
     <h2 class="section-title">Projects</h2>
 
@@ -481,7 +469,7 @@
         <p><b>Role:</b> Electronics and Control Engineer</p>
 
         <div class="project-links">
-          <a href="https://github.com/Praveensri101" target="_blank">GitHub</a>
+          <a href="https://github.com/Praveensri101/Smart-helmet-monitoring-website" target="_blank">GitHub</a>
         </div>
       </div>
 
@@ -495,14 +483,13 @@
         <p><b>Role:</b> Project Lead</p>
 
         <div class="project-links">
-          <a href="https://github.com/Praveensri101" target="_blank">GitHub</a>
+          <a href="https://github.com/Praveensri101/SELF-NAVIGATING-EMERGENCY-ROVER-USING-REINFORCEMENT-ALGORITHM" target="_blank">GitHub</a>
         </div>
       </div>
 
     </div>
   </section>
 
-  <!-- Education -->
   <section class="education" id="education">
     <h2 class="section-title">Education</h2>
 
@@ -510,7 +497,7 @@
       <h3>B.Tech Computer Science and Business Systems</h3>
       <p>M. Kumarasamy College of Engineering, Karur</p>
       <p><strong>Year:</strong> 2022 - 2026</p>
-      <p><strong>CGPA:</strong> 6.99 (Until 6th Semester)</p>
+      <p><strong>CGPA:</strong> 7.00 (Until 7th Semester)</p>
     </div>
 
     <div class="education-box">
@@ -524,11 +511,10 @@
       <h3>Secondary School (SSLC)</h3>
       <p>SKV Matric Higher Secondary School</p>
       <p><strong>Year:</strong> 2019 - 2020</p>
-      <p><strong>Percentage:</strong> 58%</p>
+      <p><strong>Percentage:</strong> 58.2%</p>
     </div>
   </section>
 
-  <!-- Certifications -->
   <section id="certifications">
     <h2 class="section-title">Global Certifications</h2>
 
@@ -543,7 +529,6 @@
     </div>
   </section>
 
-  <!-- Internship -->
   <section id="internship">
     <h2 class="section-title">Internship</h2>
 
@@ -552,12 +537,11 @@
       <p><strong>Company:</strong> Internzlearning Pvt Ltd (Online)</p>
       <p>
         Completed a focused internship in Python programming, gaining hands-on experience in developing efficient algorithms
-        and solving real-world problems. Worked on multiple projects including a story-generating AI and a simple calculator.
+        and solving real-world problems. Worked on multiple projects including a story-generating AI.
       </p>
     </div>
   </section>
 
-  <!-- Contact -->
   <section class="contact" id="contact">
     <h2 class="section-title">Contact Me</h2>
 
@@ -579,26 +563,56 @@
     </div>
   </section>
 
-  <!-- Footer -->
   <footer>
     <p>© 2026 Praveen S | Frontend Developer Portfolio</p>
   </footer>
 
-  <!-- JavaScript -->
-  <script>
-    function toggleMenu() {
+  <script type="module">
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-app.js";
+    import { getFirestore, collection, addDoc, serverTimestamp } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore.js";
+
+    const firebaseConfig = {
+      apiKey: "AIzaSyB3MmJctQO1uf9OIT2z-Fi5LPMXtPtHAxo",
+      authDomain: "portfolio-ef8c9.firebaseapp.com",
+      projectId: "portfolio-ef8c9",
+      storageBucket: "portfolio-ef8c9.firebasestorage.app",
+      messagingSenderId: "991361649696",
+      appId: "1:991361649696:web:b2291b583d5363c3ca4045",
+      measurementId: "G-S265JT4PG6"
+    };
+
+    const app = initializeApp(firebaseConfig);
+    const db = getFirestore(app);
+
+    window.toggleMenu = function () {
       document.getElementById("navLinks").classList.toggle("active");
     }
 
-    function sendMessage(event) {
+    window.sendMessage = async function (event) {
       event.preventDefault();
 
       let name = document.getElementById("name").value;
-      alert("Thank you " + name + "! Your message has been sent.");
+      let email = document.getElementById("email").value;
+      let message = document.getElementById("message").value;
 
-      document.getElementById("name").value = "";
-      document.getElementById("email").value = "";
-      document.getElementById("message").value = "";
+      try {
+        await addDoc(collection(db, "contactMessages"), {
+          name: name,
+          email: email,
+          message: message,
+          timestamp: serverTimestamp()
+        });
+
+        alert("Thank you " + name + "! Your message is stored in Firestore.");
+
+        document.getElementById("name").value = "";
+        document.getElementById("email").value = "";
+        document.getElementById("message").value = "";
+
+      } catch (error) {
+        console.error(error);
+        alert("Error sending message. Check console.");
+      }
     }
   </script>
 
